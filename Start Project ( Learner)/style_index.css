@@ -1,0 +1,39 @@
+body {
+	background-image: url(Hanuman.jpg);
+    background-size: 1500px 700px;
+    /*background-color: gray;*/
+
+}
+
+h2 {
+	color: red;
+	text-align: center;
+	border: 5px dashed green;
+}
+
+h1{
+	text-align: right;
+}
+
+li {
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+.First {
+	color : red;
+}
+.middle{
+	color: yellowgreen;
+}
+.last{
+	color: rgba(255, 0, 0, 0.5);
+}
+
+#lol{
+	background-color: rgba(255,0,0,0.3);
+	border: 5px solid yellow;
+}

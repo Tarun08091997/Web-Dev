@@ -1,0 +1,12 @@
+/*Selector {
+	Property:  value;
+}*/
+
+h1{
+	color: red;
+}
+
+p {
+	color:  green;
+	background-color: black;
+}
