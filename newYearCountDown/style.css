@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:  slateblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    font-family: cursive;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 1px black;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.setDate{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+
+.setDate input{
+    height: 30px;
+    font-size: 18px;
+    border: 0px transparent;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: center;    
+    outline: none;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    font-family: cursive;
+    /* margin-right: -1px; */
+}
+.setDate button{
+    height: 30px;
+    width: 50px;
+    background-color: white;
+    border: 0px transparent;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: cursive;
+    text-align: center;
+    justify-content: center;
+
+}
+.setDate button:hover{
+    background-color: rgba(255,255,255,0.8);
+}
+
+
+
+.countdown span{
+    margin: 20px;
+    margin-top: -20px;
+    color: white;
+    font-size: 70px;
+    font-weight: 500px;
+    position: relative;
+}
+.countdown span::before{
+    position: absolute;
+    content: "";
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 10px;
+    bottom: -5px;
+    left: 15px;
+    
+    
+}
+
+div .day::before{
+    content: "DAYS";
+}
+div .hour::before{
+    content: "HOURS";
+}
+div .minute::before{
+    content: "MINUTES";
+}
+div .second::before{
+    content: "SECONDS";
+}
+
+
+
+
+
+
+
